@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+*{
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #1e5cb8;
+}
+
+header{
+    margin: 5px;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+}
+
+main{
+    margin: 5px;
+}
+
+div{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.926) ;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
+}
+
+p{
+    margin: 6px;
+    font-size: 26px;
+}
+
+input{
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    margin: 6px;
+    font-size: 20px;
+}
+
+.botoes{
+    width: 100px;
+    background-color: #c2bebe;
+}
+
+.botoes:hover{
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+footer > p{
+    font-size: smaller;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color:goldenrod;
+    text-decoration: none;
+}
+    </style>
+    <title>Tabuada</title>
+</head>
+<body>
+    <header>
+        <h1> Gerador de Tabuada</h1>
+    </header>
+    <main>
+        <div>
+            <form action="tabuada.php" method="post" autocomplete="off">
+                <p>
+                    <label for="inum1">Numero :</label><br>
+                    <input type="number" name="num1" id="inum1" value="0" required>
+                </p>
+                <p>
+                    <label for="inumlinha">Numero de linhas :</label><br>
+                    <input type="number" name="numlinha" id="inumlinha" value="0" required>
+                </p>
+                <p>
+                    <input class="botoes" type="submit" value="Gerar">
+                    <input class="botoes" type="reset" value="Limpar">
+                </p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/pablo-bidiaki/">Pablo Bidiaki</a></p>
+    </footer>
+</body>
+</html>
