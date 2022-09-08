@@ -99,7 +99,7 @@
 </div>
 
     <footer>
-        <p>Desenvolvido por <a href="https://www.linkedin.com/in/pablo-bidiaki/">Pablo Bidiaki</a></p>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/pablo-bidiaki/" target="_blank">Pablo Bidiaki</a></p>
     </footer>
 </body>
 </html>
