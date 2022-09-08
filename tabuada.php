@@ -91,7 +91,7 @@
             for($i = 0; $i <= $quantlinhas; $i++){
                 $res = 0;
                 $res = $i*$num;
-                echo "<p>$i x $num = $res</p>";
+                echo "<p>$num x $i = $res</p>";
             };
 
         ?>
